@@ -4,12 +4,12 @@ using System.Text;
 
 namespace ClassMetotDemo
 {
-    class Musteri
+    class Customer
     {
         public string Id { get; set; }
-        public string Ad { get; set; }
-        public string Soyad { get; set; }
-        public int Maas { get; set; }
-        public double MaxKredi { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public int Salary { get; set; }
+        public double MaxCredit { get; set; }
     }
 }
